@@ -20,6 +20,8 @@ public class Main extends Application {
     public static void main(String[] args) {
         JDBC.makeConnection();
         System.out.println("connection made");
+	System.out.println("launching gui");
+	//TODO there should code to set system to French.
         launch(args);
     }
 }
