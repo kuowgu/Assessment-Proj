@@ -19,6 +19,7 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         JDBC.makeConnection();
+        System.out.println("connection made");
         launch(args);
     }
 }
