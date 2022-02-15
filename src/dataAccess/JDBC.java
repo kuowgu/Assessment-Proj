@@ -25,10 +25,12 @@ public class JDBC {
               System.out.println("Connection successful!");
           }
                   catch(ClassNotFoundException e) {
-                      System.out.println("Error:" + e.getMessage());
+//                      System.out.println("Error:" + e.getMessage());
+                        e.printStackTrace();
                   }
                   catch(SQLException e) {
-                      System.out.println("Error:" + e.getMessage());
+                      //System.out.println("Error:" + e.getMessage());
+                        e.printStackTrace();
                   }
           }
 
